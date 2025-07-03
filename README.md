@@ -272,7 +272,7 @@ Contributions are welcome! Please open issues or submit pull requests for improv
 ## 👤 Authors
 
 - João ([@jcmspg](https://github.com/jcmspg))
-- [Your collaborators here]
+- Nuno ([@nunnoandrezo](https://github.com/nunoandrezo))
 
 ---
 
