@@ -36,7 +36,7 @@ The project plan is available [here](https://jcmspg.github.io/minishell/).
 > **A fully functional Unix shell, written in C, featuring command parsing, pipelines, redirections, environment and wildcard expansion, and robust error/signal handling.**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/jooagmoz)
-[![Demo Video](https://img.shields.io/badge/Demo-Video-red?logo=youtube)](demo.webm)
+[![Demo Video](https://img.shields.io/badge/Demo-Video-red?logo=youtube)](assets/demo.webm)
 
 ---
 
