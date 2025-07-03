@@ -13,6 +13,9 @@ Minishell is a simplified Unix shell implemented in C as part of the 42 curricul
 
 The project plan is available [here](https://jcmspg.github.io/minishell/).
 
+![Minishell Demo](assets/demo.gif)
+
+
 ---
 
 ## Table of Contents
@@ -24,7 +27,7 @@ The project plan is available [here](https://jcmspg.github.io/minishell/).
 - [🖥️ Usage](#-usage)
 - [🧩 Built-in Commands](#-built-in-commands)
 - [🌟 Wildcard Expansion](#-wildcard-expansion)
-- [🗂️ Project Structure](#-project-structure
+- [🗂️ Project Structure](#-project-structure)
 - [⚠️ Limitations](#-limitations)
 - [How It Works](#how-it-works)
 - [🤝 Contributing](#-contributing)
