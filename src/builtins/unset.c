@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   unset.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joao <joao@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: joamiran <joamiran@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/30 01:59:00 by nuno              #+#    #+#             */
-/*   Updated: 2025/06/01 17:52:02 by joao             ###   ########.fr       */
+/*   Updated: 2025/07/03 21:35:34 by joamiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,13 @@ void	unset_env_var(t_shell *shell, char *key)
 {
 	t_env_var	*env_var;
 
+	if (!key || !*key)
+	{
+		ft_printf_fd(2, "minishell: unset: `': not a valid identifier\n");
+		shell->exit_value = 1;
+		return ;
+	}
+
 	env_var = find_env_var(shell->env, key);
 	if (!env_var)
 	{
@@ -78,6 +85,8 @@ void	unset_vars(t_cmd *cmd, t_shell *shell)
 	int		i;
 	char	**keys;
 
+	if (!cmd || !cmd->args || !shell)
+		return ;
 	keys = cmd->args;
 	i = 0;
 	while (keys[i])
