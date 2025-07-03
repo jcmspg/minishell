@@ -117,6 +117,21 @@ echo "Hello, $USER!"
 ls src/*.c
 ```
 
+**Debug Mode:**  
+To see how your input is parsed and processed, run:
+```sh
+./minishell -d
+```
+This will print detailed debug information for each command entered.
+
+You can now enter commands as you would in a standard shell. Examples:
+```sh
+ls *.c | grep main > results.txt
+export PATH=$PATH:/custom/bin
+cat < input.txt | sort | uniq
+echo "Hello, $USER!"
+ls src/*
+
 ---
 
 ## 🧩 Built-in Commands
