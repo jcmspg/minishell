@@ -131,6 +131,7 @@ export PATH=$PATH:/custom/bin
 cat < input.txt | sort | uniq
 echo "Hello, $USER!"
 ls src/*
+```
 
 ---
 
