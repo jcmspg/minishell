@@ -13,7 +13,7 @@ Minishell is a simplified Unix shell implemented in C as part of the 42 curricul
 
 The project plan is available [here](https://jcmspg.github.io/minishell/).
 
-![Minishell Demo](assets/demo.gif)
+![Minishell Demo](assets/demo_gif.gif)
 
 
 ---
